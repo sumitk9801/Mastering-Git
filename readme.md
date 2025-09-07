@@ -38,3 +38,8 @@ To make branch and merge use cmds :-
  3) git checkout -b newBranch-name  ---> by this u can make new branch and also moveto that branch .(Shortcut)
 
  4) git branch new-branch-name souce-branch --> this will ensure that the new branch is created inside the right source branch  
+
+----------------------------------------------------------------------------------------------------------
+To connect local and remote files use cmd:- 
+ 1) git push -u origin main ---> this will not only push the first update but also make a 2 way connection between them . No need to run this commend after 1 time ...just use "git push " .
+ 
